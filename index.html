@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML5 Classic Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+
+    <div id="reMenu">
+      <h1 id="snake2">Snake</h1>
+      <p id="info2">Game Over</p>
+      <a href="javascript: void(0)" id="restart" onclick="reset()" >Restart</a>
+    </div>
+
+    <div id="menu">
+      <h1 id="snake">Snake</h1>
+      <p id="info">by Redsteroid</p>
+      <a href="javascript: void(0)" id="start" onclick="init()" >Start</a>
+      <p id="loading">Loading...</p>
+    </div>
+
+    <p id="score">Score: 0</p>
+
+    <script src="main.js"></script>
+
+  </body>
+</html>
